@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="minecraft" name="Minecraft">
+      <configuration>
+        <autoDetectTypes>
+          <platformType>PAPER</platformType>
+          <platformType>ADVENTURE</platformType>
+        </autoDetectTypes>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$/Plugin">
+      <sourceFolder url="file://$MODULE_DIR$/Plugin/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Plugin/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/Plugin/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/Plugin/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="corretto-1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="v1_17" />
+    <orderEntry type="library" name="Maven: de.tr7zw:item-nbt-api-plugin:2.9.2" level="project" />
+    <orderEntry type="module" module-name="v1_16" />
+    <orderEntry type="module" module-name="API" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.destroystokyo.paper:paper-api:1.8.9-R0.1-SNAPSHOT">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/spigotv1_8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.22" level="project" />
+  </component>
+</module>
